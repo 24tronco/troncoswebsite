@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #6b4f4f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .showcase {
+            background: url('coffee.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+        }
+        .showcase h1 {
+            font-size: 55px;
+        }
+        .content {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #6b4f4f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .menu-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            background: #eee;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Brew Haven</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase" id="home">
+        <div class="container">
+            <h1>Welcome to Brew Haven</h1>
+            <p>Your perfect place for a coffee break</p>
+        </div>
+    </section>
+    <section class="content" id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso shot</p>
+                <p>$2.50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>Smooth and creamy latte</p>
+                <p>$3.50</p>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>Perfect blend of espresso, milk, and foam</p>
+                <p>$3.75</p>
+            </div>
+        </div>
+    </section>
+    <section class="content" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@brewhaven.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Coffee St, Caffeine City, CO</p>
+        </div>
+    </section>
+    <footer>
+        <p>Brew Haven &copy; 2024</p>
+    </footer>
+</body>
+</html>
